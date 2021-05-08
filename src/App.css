@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: whitesmoke;
 	display: flex;
@@ -8,9 +12,55 @@ body {
 
 .App {
 	width: 40rem;
-	height: 25rem;
-	background-color: lightblue;
+	padding: 20px;
+	background-color: rgb(133, 204, 228);
 	color: whitesmoke;
 	border: none;
 	border-radius: 20px;
+}
+
+.quote-container {
+	position: relative;
+}
+
+.fa-quote {
+	font-size: 22px;
+	position: absolute;
+	top: 0px;
+}
+
+.fa-quote-left {
+	right: 0px;
+}
+
+.fa-quote-right {
+	left: 0px;
+}
+
+.quote-container p {
+	max-width: 90%;
+	text-align: justify;
+	margin: auto;
+}
+
+.quote-author {
+	margin: 0 60px 0 0;
+	text-align: end;
+	font-size: 18px;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.btn-container button {
+	color: antiquewhite;
+	border-color: antiquewhite;
+}
+
+.btn-container button:hover {
+	background-color: rgb(45, 183, 230);
+	border: none;
 }
