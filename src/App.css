@@ -14,7 +14,7 @@ body {
 	width: 40rem;
 	padding: 20px;
 	background-color: rgb(133, 204, 228);
-	color: whitesmoke;
+	color: #fff;
 	border: none;
 	border-radius: 20px;
 }
@@ -56,8 +56,8 @@ body {
 }
 
 .btn-container button {
-	color: antiquewhite;
-	border-color: antiquewhite;
+	color: #fff;
+	border-color: #fff;
 }
 
 .btn-container button:hover {
