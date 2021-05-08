@@ -64,3 +64,7 @@ body {
 	background-color: rgb(45, 183, 230);
 	border: none;
 }
+
+.tweet-btn .fa-twitter {
+	font-size: 18px;
+}
